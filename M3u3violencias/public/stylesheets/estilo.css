@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+h4 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero {
+    background: url(../images/Terrorismo-machista.jpeg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    min-height: max-content;
+}
+
+.list-group {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.list-group p {
+    color: rgb(97, 91, 91);
+    filter: none;
+    filter: opacity(1, 2);
+}
+footer {
+    background-color:rgba(109, 46, 116, 0.133);
+}
+.testimonios {
+    background-color: aquamarine;
+    padding-bottom: 4rem !important;
+}
+.testimonio {
+    text-align: center;
+    padding: 50px 20px;
+}
