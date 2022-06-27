@@ -1,7 +1,4 @@
 var express = require('express');
-const req = require('express/lib/request');
-const res = require('express/lib/response');
-const async = require('hbs/lib/async');
 var router = express.Router();
 var nodemailer = require("nodemailer");
 
