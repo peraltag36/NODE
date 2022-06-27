@@ -10,8 +10,9 @@
                 </div>
                 <button type="submit" class="btn btn-primary"> Entrar</button>
             </form>
-           {{#if}}
-           <p>Usuario y contraseña incorrectos</p>
-           {{/if}}
+          {{#if error}}
+          <p> Usuario y contraseña incorrectos</p>
+          {{/if}}
     </div>
 </div>
+
